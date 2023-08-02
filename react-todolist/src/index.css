@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    background-color: #F0F8FF;
+  }
+button {
+    background: transparent;
+   /* border: 0; */
+   color: #4B48F7;
+   cursor: pointer;
+   /* font-size: 1.25rem; */
+   padding: 0, 5px;
+   margin-left: 5px;
+   border-color: #c9c8fc;
+   border-radius: 4px;
+}
+
+button:hover {
+    color: #fa4f4f;
+}
+input {
+    border-color: #c9c8fc;
+    border-radius: 4px;
+}
+
+.leftToDo {
+    color: #4B48F7;
+    font-size: 14px;
+    
+}
+
+.App {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
