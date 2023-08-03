@@ -52,7 +52,7 @@ function App() {
           <TodoList todos={todos} toggleTodo={toggleTodo} />
         </div>
         <br />
-        <div className='leftToDo'>Only {todos.filter(todo => !todo.complete).length} tasks left to do</div>
+        <div className='leftToDo'>{todos.filter(todo => !todo.complete).length} tasks left to do</div>
       </div>
     </>
   )

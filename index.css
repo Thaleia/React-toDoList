@@ -18,11 +18,13 @@ button {
 }
 
 button:hover {
-    color: #fa4f4f;
+    color: rgb(231, 58, 87);
 }
 input {
     border-color: #c9c8fc;
     border-radius: 4px;
+    size: 50px;
+
 }
 .leftToDo {
     color: #4B48F7;
@@ -31,9 +33,12 @@ input {
 }
 .App {
     margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border: 1px solid rgb(0, 149, 255);
 }
 
